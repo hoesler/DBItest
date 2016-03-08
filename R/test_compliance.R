@@ -107,7 +107,6 @@ key_methods <- list(
     "dbGetRowsAffected" = NULL,
     "dbGetRowCount" = NULL,
     "dbHasCompleted" = NULL,
-    "dbGetStatement" = NULL,
-    "dbBind" = NULL
+    "dbGetStatement" = NULL
   )
 )
