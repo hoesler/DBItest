@@ -12,7 +12,7 @@ Depends:
 Imports:
     methods,
     testthat,
-    DBI (== 0.3.1)
+    DBI (>= 0.3.1)
 Suggests:
     devtools,
     lintr,
@@ -38,5 +38,5 @@ Collate:
     'test_meta.R'
     'test_compliance.R'
     'utf8.R'
-RoxygenNote: 5.0.1.9000
+RoxygenNote: 5.0.1
 VignetteBuilder: knitr
