@@ -1,3 +1,16 @@
+Version 1.1-2 (2016-03-15)
+===
+
+- The `skip` argument to the test functions is now treated as a Perl regular expression to allow negative lookahead. Use `skip = "(?!test_regex).*"` to choose a single test to run (#33).
+
+
+Version 1.1-1 (2016-03-10)
+===
+
+- Compatibility with dev version of `testthat` (#62).
+- Added encoding arguments to non-ASCII string constants (#60, @hoesler).
+
+
 Version 1.1 (2016-02-12)
 ===
 
