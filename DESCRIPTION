@@ -20,7 +20,6 @@ Suggests:
     knitr,
     rmarkdown
 Remotes:
-    rstats-db/DBI,
     hadley/testthat
 License: LGPL (>= 2)
 LazyData: true
